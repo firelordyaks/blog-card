@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, sans-serif;
+    text-align: left;
+    padding: 5%;
+}
+
+#main-div{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    font-size: 16px;
+    padding: 20px;
+    box-shadow: 10px 10px;
+    width: 370px;
+    margin: auto;
+}
+
+#main-img{
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#paragraph{
+    color: hsl(0, 0%, 42%);
+}
+
+#avatar{
+    font-weight: bolder;
+    display: flex;
+}
+
+#dp{
+    width: 13%;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+#greg{
+    padding-top: 5px;
+}
+
+#head{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.attribution{
+    margin-top: 20px;
+}
+
+#learning{
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.2rem;
+    text-align: center;
+    width: 25%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#head:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+#publish{
+    font-weight: bold;
+    color: hsl(0, 0%, 22%);
+    padding-top: 15px;
+}
